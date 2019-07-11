@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+html,body{
+background-image: url("me.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+.container{
+height: 100%;
+<--!align-content: center; -->
+}
+.card{
+margin-top: 50px;
+height: 65%;
+width: 35%;
+background-color: rgba(0,0,0,0.6) !important; <--! اللي بيعمل بلون باهت -->
+}
+	span{
+	padding: 25px;
+	margin-right: 20px;
+	border-radius: 50%;
+	}
+	i:hover {
+  -ms-transform: scale(1.25); 
+  -webkit-transform: scale(1.25); 
+  transform: scale(1.25); 
+}
+	header{
+	font-family: 'Zapf-Chancery', cursive;
+	padding: 8px;
+	padding-left: 150px;
+	background-color: rgba(0,0,0,0.75) !important;
+	width : 100%;
+	text-align : left;
+	font-size: 50px;
+}
+
+   #map{
+            width: 55%;
+            height: 500px;
+			margin: 5px;
+			margin-left: 0px;
+        } 
+#info{
+	width: 300px;
+    height: 100px;
+	margin: 5px;
+}
